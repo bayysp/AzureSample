@@ -30,10 +30,10 @@
             <?php foreach ($mahasiswa as $isi) { ?>
                 <tr>
                     <td><?php $no; ?></td>
-                    <td><?php $isi['nama']; ?></td>
-                    <td><?php $isi['nim']; ?></td>
-                    <td><?php $isi['asal']; ?></td>
-                    <td><?php $isi['universitas']; ?></td>
+                    <td><?php echo $isi['nama']; ?></td>
+                    <td><?php echo $isi['nim']; ?></td>
+                    <td><?php echo $isi['asal']; ?></td>
+                    <td><?php echo $isi['universitas']; ?></td>
                 </tr>
             <?php } ?>
         </table>
