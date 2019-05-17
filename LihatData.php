@@ -27,7 +27,7 @@
                 <td>Alamat</td>
                 <td>Universitas</td>
             </tr>
-            <?php foreach ($mhs as $isi) { ?>
+            <?php foreach ($mahasiswa as $isi) { ?>
                 <tr>
                     <td><?php $no; ?></td>
                     <td><?php $isi->nama; ?></td>
