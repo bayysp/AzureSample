@@ -32,7 +32,7 @@
                     <td><?php $no; ?></td>
                     <td><?php $isi->nama; ?></td>
                     <td><?php $isi->nim; ?></td>
-                    <td><?php $isi->alamat; ?></td>
+                    <td><?php $isi->asal; ?></td>
                     <td><?php $isi->universitas; ?></td>
                 </tr>
             <?php } ?>
