@@ -1,5 +1,8 @@
 <?php
     try {
+
+        include 'koneksi.php';
+
         $nama = $_POST['nama'];
         $nim = $_POST['nim'];
         $alamat = $_POST['alamat'];
