@@ -17,6 +17,7 @@
         $stmt->bindValue(4, $asal);
         $stmt->bindValue(5, $universitas);
         $stmt->execute();
+        header('location:index.php');
     } catch (Exception $e) {
         echo "Failed: " . $e;
     }
