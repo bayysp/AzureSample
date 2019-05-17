@@ -1,5 +1,5 @@
 <?php
-    $host = "bayywebappserver";
+    $host = "bayywebappserver.database.windows.net";
     $user = "dicoding";
     $pass = "belajar123!";
     $db = "mahasiswa";
