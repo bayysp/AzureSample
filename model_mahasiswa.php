@@ -5,10 +5,10 @@
 
         $nama = $_POST['nama'];
         $nim = $_POST['nim'];
-        $alamat = $_POST['alamat'];
+        $alamat = $_POST['asal'];
         $universitas = $_POST['univ'];
 
-        $sql_insert = "INSERT INTO mahasiswa (nama, nim, alamat, univ) 
+        $sql_insert = "INSERT INTO mahasiswa (nama, nim, asal, univ) 
                                 VALUES (?,?,?,?)";
         $stmt = $conn->prepare($sql_insert);
         $stmt->bindValue(1, $nama);

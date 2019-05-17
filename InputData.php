@@ -32,7 +32,7 @@ include 'koneksi.php';
                 <tr>
                     <td>Alamat</td>
                     <td>:</td>
-                    <td><input name="alamat" type="text"></td>
+                    <td><input name="asal" type="text"></td>
                 </tr>
 
                 <tr>
