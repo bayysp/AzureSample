@@ -14,6 +14,7 @@
     $sql_select = "SELECT * FROM mahasiswa";
     $stmt = $conn->query($sql_select);
     $mahasiswa = $stmt->fetchAll();
+    $no = 1;
     ?>
 
     <a href="index.php">Kembali</a>
