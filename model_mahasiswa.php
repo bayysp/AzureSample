@@ -8,7 +8,7 @@
         $alamat = $_POST['alamat'];
         $universitas = $_POST['univ'];
 
-        $sql_insert = "INSERT INTO Registration (nama, nim, alamat, univ) 
+        $sql_insert = "INSERT INTO mahasiswa (nama, nim, alamat, univ) 
                                 VALUES (?,?,?,?)";
         $stmt = $conn->prepare($sql_insert);
         $stmt->bindValue(1, $nama);
