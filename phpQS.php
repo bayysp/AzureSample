@@ -69,6 +69,11 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
     } while ($result->getContinuationToken());
 }
 ?>
+
+<br>
+<br>
+<h2><a href="index.php">KEMBALI KE HALAMAN UTAMA</a></h2>
+
 </body>
 
 </html>
