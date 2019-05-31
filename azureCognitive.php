@@ -10,6 +10,7 @@ if (isset($_POST['submit'])) {
 } else {
     echo "belum di submit";
     header("Location: phpQS.php");
+    
 }
 
 ?>
@@ -40,8 +41,7 @@ if (isset($_POST['submit'])) {
         };
  
         // Display the image.
-        var sourceImageUrl = $url;
-        // var sourceImageUrl = document.getElementById("inputImage").value;
+        var sourceImageUrl = document.getElementById("inputImage").value;
         document.querySelector("#sourceImage").src = sourceImageUrl;
  
         // Make the REST API call.
