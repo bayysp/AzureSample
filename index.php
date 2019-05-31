@@ -28,6 +28,15 @@
       </table>
     </form>
 
+    <h1>HELLO, WELCOME TO SUBMISSION 2 MACD</h1>
+    <form action="mahasiswa" method="POST">
+      <table>
+        <tr>
+          <button><a href="phpQS.php">PERGI KE WEB NYA</a></button>
+        </tr>
+      </table>
+    </form>
+
   </center>
 
 
